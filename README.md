@@ -1,3 +1,4 @@
+## Welcome
 MITgcm model code to reproduce the results of Poinelli 2025a and Poinelli 2025b. 
 
 The model output consisting of 10 TB of data including daily, weekly and monthly output for a nominal time frame of 01-Jan-2010 to 01-Nov-2010.
@@ -9,16 +10,23 @@ If you use this code or model output please cite:
 
 If you have questions, please do not hesitate to reach out at mpoinell@uci.edu
 
+## Code and data description
+This repository includes three source code folders, three input folders and three run folders categorized by model resolution:
 
+ - `code_200m`: Amundsen Sea Embayment simulation at 200 m resolution, MITgcm code
+ - `code_500m`: Amundsen Sea Embayment simulation at 500 m resolution, MITgcm code
+ - `code_1km`:  Amundsen Sea Embayment simulation at 200 m resolution, MITgcm code
 
-200m: ASE simulation at 200 m 
-500m: ASE simulation at 500 m
-1 km: ASE simulation at 1 km
+ - `input_200m`: Amundsen Sea Embayment simulation at 200 m resolution, MITgcm input files
+ - `input_500m`: Amundsen Sea Embayment simulation at 500 m resolution, MITgcm input files
+ - `input_1km`:  Amundsen Sea Embayment simulation at 200 m resolution, MITgcm input files
 
-to build mitgcm follow:
-https://mitgcm.readthedocs.io/en/latest/getting_started/getting_started.html
-=======
-This repo contains MITgcm model code and input for a paper on submesoscale ocean processes in the Amundsen Sea Embayment.
+ - `run_200m`: Amundsen Sea Embayment simulation at 200 m resolution, MITgcm model output (only in the ECCO drive, not github)
+ - `run_500m`: Amundsen Sea Embayment simulation at 500 m resolution, MITgcm model output (only in the ECCO drive, not github)
+ - `run_1km`:  Amundsen Sea Embayment simulation at 200 m resolution, MITgcm model output (only in the ECCO drive, not github)
 
-This code is based on MITgcm checkpoint 68r.
+## To build MITgcm
+Please follow instructions listed here:  https://mitgcm.readthedocs.io/en/latest/getting_started/getting_started.html
 
+Note that model results and code are based on MITgcm checkpoint 68r referenced here:
+- Campin, J.M., Heimbach, P., Losch, M. et al. (2023). MITgcm/MITgcm: ckeckpoint68r (Versione checkpoint68r). Zenodo. https://doi.org/10.5281/zenodo.8208482
