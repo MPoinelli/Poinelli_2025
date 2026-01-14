@@ -16,11 +16,11 @@ This repository includes three source code folders, three input folders and thre
 
 - `code_200m`: Amundsen Sea Embayment simulation at 200 m resolution, MITgcm code
 - `code_500m`: Amundsen Sea Embayment simulation at 500 m resolution, MITgcm code
-- `code_1km`:  Amundsen Sea Embayment simulation at 200 m resolution, MITgcm code
+- `code_1km`:  Amundsen Sea Embayment simulation at 1 km resolution, MITgcm code
 
 - `input_200m`: Amundsen Sea Embayment simulation at 200 m resolution, MITgcm input files
 - `input_500m`: Amundsen Sea Embayment simulation at 500 m resolution, MITgcm input files
-- `input_1km`:  Amundsen Sea Embayment simulation at 200 m resolution, MITgcm input files
+- `input_1km`:  Amundsen Sea Embayment simulation at 1 km resolution, MITgcm input files
 
 Model output are provided only in the ECCO drive and consists of daily, weekly, monthly averages.
 Output is stored in `set` binary files, and the content of each `set` can be found in the appropriate `input/data.diagnostics`
@@ -31,7 +31,7 @@ Note that run_200m is divided into two folders (`run_b` and `run_c`). The differ
 To convert timestamps to nominal date use this [gist](https://gist.github.com/MPoinelli/ef5b6c32444465f58c7caef068a41aaa).
 
 - `run_500m`: Amundsen Sea Embayment simulation at 500 m resolution, MITgcm model output (only in the ECCO drive, not github)
-- `run_1km`:  Amundsen Sea Embayment simulation at 200 m resolution, MITgcm model output (only in the ECCO drive, not github)
+- `run_1km`:  Amundsen Sea Embayment simulation at 1 km resolution, MITgcm model output (only in the ECCO drive, not github)
 
 
 <figure align="center">
