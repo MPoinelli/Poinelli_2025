@@ -9,7 +9,7 @@ If you use this code or model output, please cite te appropriate publication:
 - Poinelli, M., Siegelman, L. & Nakayama, Y. Ocean submesoscales as drivers of submarine melting within Antarctic ice cavities. Nat. Geosci. 18, 1209–1215 (2025). [[link]](https://doi.org/10.1038/s41561-025-01831-z)
 - Poinelli, M., Siegelman, L., Nakayama, Y., Rignot, E., Seroussi, H., Fenty, I., & Larour, E. (2025). Small-scale, high-frequency ice, and ocean processes in the Amundsen Sea Embayment, West Antarctica. Journal of Advances in Modeling Earth Systems, 17, e2025MS005098. [[link]](https://doi.org/10.1029/2025MS005098)
 
-If you have questions, please do not hesitate to send [me](mpoinell@uci.edu) an email.
+If you have questions or you think something is missing, please do not hesitate to send [me](mpoinell@uci.edu) an email.
 
 ## Code, input and output description
 This repository includes three source code folders, three input folders and three run folders categorized by model resolution:
